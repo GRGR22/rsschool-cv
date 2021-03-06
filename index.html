@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-      .wrapp { width: 900px; margin: 0 auto; padding: 15px; background-color: #f7f3f3;}
-   </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
    <title>My CV</title>
 </head>
 <body>
-   <main class="wrapp">
-      <article>
-         <header>
-            <h1>Gennadiy Bazarnov</h1>
-            <H4>FRONT-END beginer</H4>
-            <ul>
-               <li> <a href="mailto:bagbox@mail.ru">bagbox@mail.ru</a>
-               </li>
-               <li> <a href="https://vk.com/brainjuice">https://vk.com/brainjuice</a></li>
-               <li>Togliatti, Russia</li>
-            </ul>
-         </header>
+   <main>
+      <div class="wrapp">
+      	<div class="avatar-block">
+            <section>         	
+         		<figure>
+         			<img src="IMG/ava.jpg" alt="Avatar image" class="avatar-block__img">
+         			<figcaption>It`s am i</figcaption>
+         		</figure>
+	            <h1 style="font-size: 35px">Gennadiy Bazarnov</h1>
+	            <ul>
+	               <li> <a href="mailto:bagbox@mail.ru">bagbox@mail.ru</a>
+	               </li>
+	               <li> <a href="https://vk.com/brainjuice">https://vk.com/brainjuice</a></li>
+	               <li>Togliatti, Russia</li>
+	            </ul>	        
+        	</section>
+        </div>	
 
-         <section>
+        <div class="all-information">
+         <section class="text-block">
             <h2>Experience</h2>
             <ul>
                <li><h3>Ingener of Radio broadcasting , Feb 2016 — until today</h3>
@@ -33,7 +37,7 @@
                   <li>...and other...</li>
             </ul>
          </section>
-         <section>
+         <section class="text-block">
             <h2>Education</h2>
             <ul>
                <li>
@@ -42,29 +46,40 @@
                </li>
             </ul>
          </section>
-         <section>
+         <section class="text-block">
             <h2>Сontinuing education</h2>
             <ul>
                <li>Front-End development by Geekbrains/Mail.RU Group (is now)</li>
                <li>CISCO ICND 1 & 2  2.0 CCNA by Advanced Training</li>
             </ul>
          </section>
-         <section>
-            <h2>Skills & Interests</h2>
+         <section class="text-block">
+            <h2>Skills & Interests</h2>         
+	         <ul>
+	            <li>Electronics, microcontroller programming in assembly, technical literature and MOTO.</li>
+	            <li><a href="https://github.com/GRGR22/GEEKBRAINS/tree/main/HTML%26CSS_lessons">Here is an example of mine HTML & CSS works</a></li>
+	         </ul>
          </section>
-         <ul>
-            <li>Electronics, microcontroller programming in assembly, technical literature and MOTO.</li>
-            <li><a href="https://github.com/GRGR22/GEEKBRAINS/tree/main/HTML%26CSS_lessons">Here is an example of mine HTML & CSS works</a></li>
-         </ul>
-         <section>
+         <section class="text-block">
             <h2>Languages</h2>
             <ul>
                <li>Russian (nativ)</li>
                <li>English (A2)</li>
             </ul>
          </section>
-      </article>
+        </div>
+      </div>
+    <footer>
+    	<div class="wrapp footer-wrapp">
+    		<nav class="footer-nav">
+	    		<div class="footer-nav__item"><a href="https://rs.school/" title="rs.school"><img src="IMG/rs_school_js.svg" alt="RS schol logo" style="height: 40px"> </a></div>
+	    		<div class="footer-nav__item"><a href="https://github.com/GRGR22" title="My Git"><img src="IMG/GitHub-Mark-64px.png" alt="Github logo" style="height: 40px"> </a></div>
+    		</nav>
+    		 <div class="footer-allright">     			
+    			<p>© 'Copyright' 2021</p>
+    		</div>    		
+    	</div>    	
+    </footer>
    </main>
-</body>
-   
+</body>   
 </html>
